@@ -2,17 +2,11 @@ public class Exam
 {
     public static void main(String[] args)
     {
-       /*문자 출력
-        //System.out.println("");
-        //System.out.println("Seoul   10,312,545     +91,375");
-        */
+        double num1, num2, result;
+        num1=1.0000001;
+        num2=2.0000001;
+        result=num1+num2;
 
-        char name;
-        name = 'a';
-
-        char name2 = 'a';
-
-        System.out.println(name);
-
+        System.out.println(result);
     }
 }
