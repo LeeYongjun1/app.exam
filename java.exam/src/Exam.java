@@ -10,10 +10,10 @@ public class Exam
         double average = sum / 3;
 
         System.out.println("합계 : +sum");
-        System.out.println("나눗셈 : +average" );
+        System.out.println("평균 : +average" );
 
         //int n1=7;
-       //int n2=3;
+        //int n2=3;
 
        //nt result=n1+n2;
        //System.out.println("덧셈 결과 : " + result);
