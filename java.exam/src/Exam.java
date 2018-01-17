@@ -1,19 +1,15 @@
-public class Exam
-{
-    public static void main(String[] args)
-    {
-       boolean result;
-       int num1, num2;
-       num1 = 30;
-       num2 = 60;
+public class Exam {
+    public static void main(String[] args) {
+        int num = 10;
 
-        result = num1 < num2;
-        result = num1 > num2;
-        result = num1 <= num2;
-        result = num1 >= num2;
-        result = num1 == num2;
-        result = num1 != num2;
+        if (num > 0) {
+            System.out.println("num은 0보다 크다");
+        }
 
-       System.out.println("결과는 : "+result);
+        if((num%2)==0){
+            System.out.println("num은 짝수");
+        }else {
+            System.out.println("num은 홀수");
+        }
     }
 }
