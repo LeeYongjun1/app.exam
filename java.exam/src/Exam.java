@@ -1,21 +1,19 @@
 public class Exam {
     public static void main(String[] args) {
-       int score = 45;
+       int n=3;
+       String str = "";
 
-       if (score >= 90) {
-           System.out.println("성적은 수 입니다.");
+       switch (str){
+           case "쥐":
+               System.out.println("mouse");
+                 break;
+           case "고양이":
+               System.out.println("cat");
+                 break;
+           case "강아지":
+               System.out.println("dog");
+                 break;
        }
-       else if(score >= 80){
-           System.out.println("성적은 우 입니다.");
-       }
-       else if(score >= 70){
-           System.out.println("성적은 미 입니다.");
-       }
-       else if(score >= 60){
-           System.out.println("성적은 양 입니다.");
-       }
-       else {
-           System.out.println("성적은 가 입니다.");
-       }
+          System.out.println("단어가 없습니다");
     }
 }
