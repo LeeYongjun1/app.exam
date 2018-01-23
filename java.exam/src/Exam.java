@@ -1,15 +1,15 @@
 public class Exam {
     public static void main(String[] args) {
 
-        int Num = 0;
-        int sum = 0;
+        int Num = 1;
 
-        while (Num < 10) {
-            Num = Num + 1;
-            sum = sum + Num;
+
+        while (Num < 9) {
+            Num = 0+1;
+
         }
 
-        System.out.println("1에서 10까지 더한 값은? 55");
+        System.out.println("검색종료");
 
     }
 }
