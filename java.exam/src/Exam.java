@@ -4,11 +4,12 @@ public class Exam {
     public static void main(String[] args) {
         int num = 2;
         while(num < 10){
-            /*if(num%5==0){
-                break;;
-            }*/
-            System.out.println(num);
+            if(num%5==0){
+                num++;
+                continue;
+            }
             num++;
+            System.out.println(num);
         }
     }
 }
