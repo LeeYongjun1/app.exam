@@ -1,15 +1,17 @@
 import java.util.Scanner;
 
 public class Exam {
-    public static void main(String[] args) {
-        int num = 2;
-        while(num < 10){
-            if(num%5==0){
-                num++;
-                continue;
-            }
+    public static void main(String[] args)
+    {
+        int num = 1;
+
+        while(true)
+        {
+            if(num%6==0 && num%14==0)
+                break;
             num++;
-            System.out.println(num);
         }
+        System.out.println(num);
     }
+
 }
