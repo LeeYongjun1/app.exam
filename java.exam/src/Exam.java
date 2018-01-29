@@ -3,15 +3,17 @@ import java.util.Scanner;
 public class Exam {
     public static void main(String[] args)
     {
-       System.out.println("프로그램시작");
-       hiEveryone(12);
-       hiEveryone(13);
-       System.out.println("프로스램의 끝");
+       int result=adder(4, 5);
+       System.out.println("4와 5의 합 : " + result );
+       System.out.println("3.5의 제곱 : " + square(3.5));
     }
-    public static void hiEveryone(int age)
+    public static int adder(int num1, int num2)
     {
-       System.out.println("좋은 아칩입니다.");
-       System.out.println("제 나이는 "+ age+"세입니다.");
+      int addResult=num1+num2;
+      return addResult;
     }
-
+    public static double square(double num)
+    {
+        return  num*num;
+    }
 }
