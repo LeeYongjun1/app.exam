@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Exam {
     public static void main(String[] args)
     {
-        int num = 1;
-
-        while(true)
-        {
-            if(num%6==0 && num%14==0)
-                break;
-            num++;
-        }
-        System.out.println(num);
+       System.out.println("프로그램시작");
+       hiEveryone(12);
+       hiEveryone(13);
+       System.out.println("프로스램의 끝");
+    }
+    public static void hiEveryone(int age)
+    {
+       System.out.println("좋은 아칩입니다.");
+       System.out.println("제 나이는 "+ age+"세입니다.");
     }
 
 }
