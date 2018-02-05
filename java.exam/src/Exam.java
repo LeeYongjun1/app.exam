@@ -18,7 +18,8 @@ class car {
     int x_pos = 0;
 
     public void goForward(int forward) {
-        x_pos += forward;
+        int x_pos;
+        x_pos = this.x_pos;
     }
     public int getcarposition() {
         return x_pos;
